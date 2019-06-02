@@ -1,11 +1,11 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /index.html
     destination: /usr/share/nginx/html/
 # hooks:
 #   BeforeInstall:
-#     - location: Scripts/UnzipResourceBundle.sh
+#     - location: Scripts/clean.sh
 #     - location: Scripts/UnzipDataBundle.sh
 #   AfterInstall:
 #     - location: Scripts/RunResourceTests.sh
